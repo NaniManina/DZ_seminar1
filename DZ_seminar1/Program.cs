@@ -46,10 +46,8 @@
 Console.Write("ВВедите число = ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-if (number % 2);
-{
-    Console.Write("Число чётное");
-}
+if (number % 2)
+Console.Write("Число чётное");
 else  
 {
      Console.Write("Число НЕчётное");
