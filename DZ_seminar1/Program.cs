@@ -23,25 +23,37 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
-Console.Write("ВВедите число a = ");
-int a = Convert.ToInt32(Console.ReadLine());
-Console.Write("ВВедите число b = ");
-int b = Convert.ToInt32(Console.ReadLine());
-Console.Write("ВВедите число c = ");
-int c = Convert.ToInt32(Console.ReadLine());
-int max = a;
+// Console.Write("ВВедите число a = ");
+// int a = Convert.ToInt32(Console.ReadLine());
+// Console.Write("ВВедите число b = ");
+// int b = Convert.ToInt32(Console.ReadLine());
+// Console.Write("ВВедите число c = ");
+// int c = Convert.ToInt32(Console.ReadLine());
+// int max = a;
 
-if (a > max) max = a;
-if (b > max) max = b;
-if (c > max) max = c;
+// if (a > max) max = a;
+// if (b > max) max = b;
+// if (c > max) max = c;
 
-Console.Write(max);
+// Console.Write(max);
 
 
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 // 4 -> да
 // -3 -> нет
 // 7 -> нет
+
+Console.Write("ВВедите число = ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if (number % 2);
+{
+    Console.Write("Число чётное");
+}
+else  
+{
+     Console.Write("Число НЕчётное");
+}
 
 
 
